@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+  border: 0px;
+  padding: 0px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  border-radius: 3px;
+  border: 0px;
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: antiquewhite;
+  width: 90%;
+  height: 80%;
+  flex-flow: column wrap;
+}
+
+.item-header {
+  background-color: white;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.item-header-content {
+  height: 30px;
+  border: 1px solid grey;
+}
