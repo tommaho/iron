@@ -3,6 +3,7 @@ body {
   border: 0px;
   padding: 0px;
   margin: 5px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,25 +16,48 @@ div {
   border: 0px;
   margin: 0px;
   padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.card {
+.page {
   background-color: antiquewhite;
-  width: 90%;
-  height: 80%;
-  flex-flow: column wrap;
-}
-
-.item-header {
-  background-color: white;
-  flex-flow: row wrap;
-  gap: 10px;
-}
-
-.item-header-content {
-  height: 30px;
+  width: 100%;
   border: 1px solid grey;
+}
+
+.page-header,
+.workout {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-header-content {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0px;
+}
+.page-notes-top {
+  font-weight: lighter;
+  font-style: italic;
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+}
+
+.workout {
+    border: 1px solid black;
+}
+
+.workout-header{
+    border: 1px solid blue;
+}
+
+.exercise {
+    border: 1px solid red;
+
+}
+
+.set {
+
+    border: 1px solid magenta;
 }
