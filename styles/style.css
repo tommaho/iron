@@ -37,17 +37,18 @@ div {
   border-bottom: 1px solid lightgray;
   border-radius: 0px;
 }
-.page-notes-top {
+.page-notes-top,
+.focus-notes {
   font-weight: lighter;
   font-style: italic;
   background-color: rgb(245, 245, 245);
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .focus-notes,
 .focus-header {
   flex: 1 1 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .exercise-container {
@@ -55,15 +56,21 @@ div {
   padding: 0px;
   flex-direction: column;
   width: 100%;
+  border: 1px solid grey;
 }
 
+.exercise-header {
+  background-color: rgba(100, 148, 237, 0.195);
+}
 .exercise {
   flex: 1, 1, 100%;
   box-sizing: border-box;
   margin: 0px;
-  border: 1px solid red;
+  /* border: 1px solid grey; */
 }
 
 .set {
-  border: 1px solid magenta;
+  border-bottom: 1px dashed lightgray;
+  display: flex;
+  justify-content: space-between;
 }
